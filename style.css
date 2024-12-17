@@ -1,0 +1,107 @@
+/* Genel Sayfa Stili */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Navbar (Menü) Stili */
+.navbar {
+    background-color: #007bff;
+}
+
+.navbar .navbar-brand {
+    color: #fff;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #f8f9fa;
+}
+
+/* Jumbotron (Büyük Başlık Alanı) Stili */
+.jumbotron {
+    
+    color: white;
+    padding: 40px 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.jumbotron h1 {
+    font-size: 3rem;
+}
+
+.jumbotron p {
+    font-size: 1.25rem;
+}
+
+/* Kartlar (Cards) Stili */
+.card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.card img {
+    border-radius: 8px;
+}
+
+.card-body {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #666;
+}
+
+.card .btn {
+    background-color: #007bff;
+    color: white;
+}
+
+.card .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Footer Stili */
+footer {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive Tasarım (Mobil cihazlar için) */
+@media (max-width: 767px) {
+    .jumbotron {
+        padding: 20px 10px;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+}
+/* Arka plan resmini ekleyelim */
+body {
+    background-image: url('arkaplan.jpg');  /* Burada 'arka-plan-resmi.jpg' yerine kendi resminizin adını yazın */
+    background-size: cover;  /* Resmi ekranın tamamına yayar */
+    background-position: center;  /* Resmi ortalar */
+    background-attachment: fixed;  /* Sayfa kaydırıldığında arka plan sabit kalsın */
+    color: white;  /* Yazı rengini beyaz yapalım, daha okunaklı olması için */
+}
